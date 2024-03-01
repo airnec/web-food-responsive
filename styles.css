@@ -36,7 +36,7 @@ svg {
   transform-origin: center;
 }
 
-svg:hover {
+#hamburger-side-drawer {
   #top-line {
     animation: down-rotate 0.6s ease-out both;
   }
@@ -138,6 +138,14 @@ svg:hover {
 
 #side-drawer:target {
   display: block;
+}
+
+#side-drawer header {
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 5%;
 }
 
 #side-drawer ul {
