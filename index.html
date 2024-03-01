@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header id="main-header">
@@ -25,12 +25,39 @@
           </li>
         </ul>
       </nav>
-      <a href="" class="menu-btn">
+
+      <svg id="hamburger" class="Header__toggle-svg" viewbox="0 0 60 40">
+        <a href="#side-drawer">
+        <g
+          stroke="rgb(238, 164, 80)"
+          stroke-width="4"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path id="top-line" d="M10,10 L50,10 Z"></path>
+          <path id="middle-line" d="M10,20 L50,20 Z"></path>
+          <path id="bottom-line" d="M10,30 L50,30 Z"></path>
+        </g>
+      </svg>
+
+      <!-- <a href="#side-drawer"  class="menu-btn">
         <span></span>
         <span></span>
         <span></span>
-      </a>
+      </a> -->
     </header>
+    <aside id="side-drawer">
+      <nav>
+        <ul>
+          <li>
+            <a href="">Browse Meals</a>
+          </li>
+          <li>
+            <a href="">My Orders</a>
+          </li>
+        </ul>
+      </nav>
+    </aside>
     <main>
       <h1>Browse Our Delicious Meals</h1>
       <section id="latest-products">
